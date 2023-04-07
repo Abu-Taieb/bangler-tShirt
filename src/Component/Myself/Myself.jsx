@@ -2,11 +2,11 @@ import React from 'react';
 import Special from '../Special/Special';
 import Friend from '../Friend/Friend';
 
-const Myself = () => {
+const Myself = ({ring}) => {
     return (
         <div>
             <h2>Myself</h2>
-            <Special></Special>
+            <Special ring={ring}></Special>
             <Friend></Friend>
         </div>
     );

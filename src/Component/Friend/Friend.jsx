@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Friend = () => {
+const Friend = ({money}) => {
     return (
         <div>
-            <h2>Friend</h2>
+            <h2>Friend <small>{money}</small> </h2>
         </div>
     );
 };

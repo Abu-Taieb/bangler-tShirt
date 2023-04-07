@@ -3,8 +3,7 @@
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
-    box-sizing: border-box;
-    width: 100%;
+    width:fit-content;
 }
 .flex{
     display: flex;
